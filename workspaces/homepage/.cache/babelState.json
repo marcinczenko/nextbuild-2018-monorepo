@@ -1,0 +1,82 @@
+{
+    "develop": {
+        "plugins": [
+            {
+                "name": "glamor/babel-hoist",
+                "options": {}
+            }
+        ],
+        "presets": [
+            {
+                "name": "@babel/preset-react",
+                "options": {
+                    "pragma": "Glamor.createElement"
+                }
+            }
+        ],
+        "options": {
+            "cacheDirectory": true,
+            "sourceType": "unambiguous"
+        }
+    },
+    "develop-html": {
+        "plugins": [
+            {
+                "name": "glamor/babel-hoist",
+                "options": {}
+            }
+        ],
+        "presets": [
+            {
+                "name": "@babel/preset-react",
+                "options": {
+                    "pragma": "Glamor.createElement"
+                }
+            }
+        ],
+        "options": {
+            "cacheDirectory": true,
+            "sourceType": "unambiguous"
+        }
+    },
+    "build-html": {
+        "plugins": [
+            {
+                "name": "glamor/babel-hoist",
+                "options": {}
+            }
+        ],
+        "presets": [
+            {
+                "name": "@babel/preset-react",
+                "options": {
+                    "pragma": "Glamor.createElement"
+                }
+            }
+        ],
+        "options": {
+            "cacheDirectory": true,
+            "sourceType": "unambiguous"
+        }
+    },
+    "build-javascript": {
+        "plugins": [
+            {
+                "name": "glamor/babel-hoist",
+                "options": {}
+            }
+        ],
+        "presets": [
+            {
+                "name": "@babel/preset-react",
+                "options": {
+                    "pragma": "Glamor.createElement"
+                }
+            }
+        ],
+        "options": {
+            "cacheDirectory": true,
+            "sourceType": "unambiguous"
+        }
+    }
+}
