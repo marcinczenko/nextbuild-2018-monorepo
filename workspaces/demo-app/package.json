@@ -1,15 +1,15 @@
 {
   "name": "nextbuild2018",
-  "version": "0.1.0",
+  "version": "1.0.1",
   "private": true,
   "dependencies": {
+    "@nextbuild-2018/css-grid-helper": "^1.0.1",
     "emotion": "^9.2.10",
     "prop-types": "^15.6.2",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.10",
-    "react-media": "^1.8.0",
-    "@nextbuild-2018/css-grid-helper": "^1.0.0"
+    "react-media": "^1.8.0"
   },
   "devDependencies": {
     "react-scripts": "^2.0.0"
