@@ -8,7 +8,8 @@
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-emotion": "^9.2.10",
-    "react-media": "^1.8.0"
+    "react-media": "^1.8.0",
+    "@nextbuild-2018/css-grid-helper": "^1.0.0"
   },
   "devDependencies": {
     "react-scripts": "^2.0.0"

@@ -1,6 +1,6 @@
 import styled from 'react-emotion'
 
-import { Grid } from 'helpers'
+import { Grid } from '@nextbuild-2018/css-grid-helper'
 
 let grid = new Grid([
   'header',

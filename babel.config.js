@@ -22,8 +22,7 @@ function setupPresets (babelEnv) {
     presetEnv = [
       '@babel/preset-env',
       {
-        modules: false,
-        exclude: ['transform-regenerator']
+        modules: false
       }
     ]
   }
