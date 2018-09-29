@@ -1,0 +1,51 @@
+{
+  "name": "@nextbuild-2018/css-grid-helper",
+  "version": "1.0.0",
+  "description": "Lightweight javascript helper to work with CSS grid - NextBuild 2018 demo",
+  "author": "Marcin Czenko <mczenko@me.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/Charterhouse/react-frontend-developer/tree/master/workspaces/css-grid-helper",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Charterhouse/react-frontend-developer.git"
+  },
+  "main": "umd/css-grid-helper.min.js",
+  "module": "es/index.js",
+  "scripts": {
+    "build": "node ./tools/build.js"
+  },
+  "engines": {
+    "node": ">=9.0.0"
+  },
+  "files": [
+    "lib",
+    "es",
+    "umd",
+    "source"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "css-in-js",
+    "react",
+    "glamorous",
+    "emotion",
+    "styled-components"
+  ],
+  "devDependencies": {
+    "@babel/cli": "^7.0.0",
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
+    "@babel/plugin-proposal-class-properties": "^7.0.0",
+    "@babel/preset-env": "^7.0.0",
+    "gzip-size": "^4.1.0",
+    "pretty-bytes": "^4.0.2",
+    "rollup": "^0.66.0",
+    "rollup-plugin-babel": "^4.0.0",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-node-resolve": "^3.3.0",
+    "rollup-plugin-replace": "^2.0.0",
+    "rollup-plugin-uglify": "^3.0.0"
+  }
+}
