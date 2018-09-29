@@ -4,7 +4,7 @@ export class Grid {
     this.modifiers = modifiers
     this.defaultContainerStyles = {
       display: 'grid',
-      gridGap: '5px',
+      gridGap: '4px',
       gridTemplateAreas: this.getGridTemplateAreas(),
       gridTemplateColumns: this.getGridTemplateColumns(),
       gridTemplateRows: this.getGridTemplateRows()
