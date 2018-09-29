@@ -4,10 +4,10 @@
   "description": "Lightweight javascript helper to work with CSS grid - NextBuild 2018 demo",
   "author": "Marcin Czenko <mczenko@me.com>",
   "license": "MIT",
-  "homepage": "https://github.com/Charterhouse/react-frontend-developer/tree/master/workspaces/css-grid-helper",
+  "homepage": "https://github.com/marcinczenko/nextbuild-2018-monorepo/tree/master/workspaces/css-grid",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Charterhouse/react-frontend-developer.git"
+    "url": "https://github.com/marcinczenko/nextbuild-2018-monorepo"
   },
   "main": "umd/css-grid-helper.min.js",
   "module": "es/index.js",
