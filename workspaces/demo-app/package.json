@@ -10,6 +10,9 @@
     "react-emotion": "^9.2.10",
     "react-media": "^1.8.0"
   },
+  "devDependencies": {
+    "react-scripts": "^2.0.0"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
